@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Başvurusuz Bayi Açılışı">
+
+    <test name="EDM Başvurusuz Açılış">
+        <classes>
+            <class name="BasvurusuzAcilis.Test.EDMBasvurusuzAcilisTest" />
+        </classes>
+    </test>
+
+    <test name="TTM Başvurusuz Açılış">
+        <classes>
+            <class name="BasvurusuzAcilis.Test.TTMBasvurusuzAcilisTest" />
+        </classes>
+    </test>
+
+    <test name="TTM Şube Başvurusuz Açılış">
+        <classes>
+            <class name="BasvurusuzAcilis.Test.TTMSubeBasvurusuzAcilisTest" />
+        </classes>
+    </test>
+
+    <test name="MediaMarkt Başvurusuz Açılış">
+        <classes>
+            <class name="BasvurusuzAcilis.Test.MediaMarktBasvurusuzAcilisTest" />
+        </classes>
+    </test>
+
+    <test name="DDM Başvurusuz Açılış">
+        <classes>
+            <class name="BasvurusuzAcilis.Test.DDMBasvurusuzAcilisTest" />
+        </classes>
+    </test>
+
+    <test name="TTIL Mudurlugu Başvurusuz Açılış">
+        <classes>
+            <class name="BasvurusuzAcilis.Test.TTILMudurluguBasvurusuzAcilisTest" />
+        </classes>
+    </test>
+
+    <test name="EDM Bayi Görüntüleme">
+        <classes>
+            <class name="BayiGoruntuleme.Test.BayiGoruntulemeEDMTest" />
+        </classes>
+    </test>
+
+    <test name="TTM Bayi Görüntüleme">
+        <classes>
+            <class name="BayiGoruntuleme.Test.BayiGoruntulemeTTMTest" />
+        </classes>
+    </test>
+
+    <test name="TTM Şube Bayi Görüntüleme">
+        <classes>
+            <class name="BayiGoruntuleme.Test.BayiGoruntulemeTTMSubeTest" />
+        </classes>
+    </test>
+
+    <test name="DDM Bayi Görüntüleme">
+        <classes>
+            <class name="BayiGoruntuleme.Test.BayiGoruntulemeDDMTest" />
+        </classes>
+    </test>
+
+    <test name="TTİl Müdürlüğü Bayi Görüntüleme">
+        <classes>
+            <class name="BayiGoruntuleme.Test.BayiGoruntulemeTTILMudurluguTest" />
+        </classes>
+    </test>
+
+    <test name="TTİl Müdürlüğü Bayi İletisim Güncelleme">
+        <classes>
+            <class name="BayiBilgiGuncelleme.Test.BayiIletisimGuncellemeTTILMudurluguTest" />
+        </classes>
+    </test>
+
+    <test name="TTM Bayi İletisim Güncelleme">
+        <classes>
+            <class name="BayiBilgiGuncelleme.Test.BayiIletisimGuncellemeTTMTest" />
+        </classes>
+    </test>
+
+    <test name="EDM Bayi İletisim Güncelleme">
+        <classes>
+            <class name="BayiBilgiGuncelleme.Test.BayiIletisimGuncellemeEDMTest" />
+        </classes>
+    </test>
+
+</suite>

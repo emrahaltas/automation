@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Takip Ettiklerim Testleri">
+
+    <test name="Takip ettiklerim a-z siralama">
+        <classes>
+            <class name="TakipEttiklerim.Test.TakipEttiklerimAdanZTest" />
+        </classes>
+    </test>
+
+    <test name="Takip ettiklerim z-a siralama">
+        <classes>
+            <class name="TakipEttiklerim.Test.TakipEttiklerimZdenATest" />
+        </classes>
+    </test>
+
+    <test name="Takip ettiklerim hazir ekran siralama kontrol">
+        <classes>
+            <class name="TakipEttiklerim.Test.TakipEttiklerimHazirEkranTest" />
+        </classes>
+    </test>
+
+    <test name="Takip ettiklerim sembol ekle cikar test">
+        <classes>
+            <class name="TakipEttiklerim.Test.TakipEttiklerimEkleCikarTest" />
+        </classes>
+    </test>
+
+    <test name="Takip ettiklerim sutun ekle cikar test">
+        <classes>
+            <class name="TakipEttiklerim.Test.TakipEttiklerimSutunEkleCikarTest" />
+        </classes>
+    </test>
+
+    <test name="Takip ettiklerim sembol detay test">
+        <classes>
+            <class name="TakipEttiklerim.Test.TakipEttiklerimSembolDetayTest" />
+        </classes>
+    </test>
+
+</suite>

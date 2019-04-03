@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Login Testleri">
+
+    <test name="login şifre hatali">
+        <classes>
+            <class name="Login.Test.LoginSifreHataliTest" />
+        </classes>
+    </test>
+
+    <test name="login basarili giris">
+        <classes>
+            <class name="Login.Test.LoginBasariliTest" />
+        </classes>
+    </test>
+
+    <test name="login kullanici adi hatali">
+        <classes>
+            <class name="Login.Test.LoginKAdiHataliTest" />
+        </classes>
+    </test>
+
+</suite>
